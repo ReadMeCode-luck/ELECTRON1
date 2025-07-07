@@ -1,0 +1,175 @@
+body{
+    color:black;
+    background: #ffffff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 150px;
+    margin: 0 auto;
+}
+
+.header{
+    max-width: 1140px;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+@media(max-width: 940px) {
+    .header{
+        max-width: 735px;
+        padding: 0 15px;
+    }
+
+    .container{
+        max-width: 735px;
+        padding: 0 15px;
+        align-items: center;
+    }
+
+    .header__top{
+        max-width: 720px;
+    }
+
+    .rentengle1{
+        max-width:735px;
+    }
+    
+    ol.menu__ol{
+        display: flex;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        gap: 20px;
+    }
+
+    img.header__logo{
+        display:flex;
+        margin: 0 20px 0 15px;
+    }
+
+    div.category{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    div.klass{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .rentengle__original{
+        max-width: 735px;
+    }
+
+    .rentengle__original1{
+        width: 735px;
+    }
+
+    ol.category_o{
+        gap:5px;
+    }
+
+    .rentengle__original3{
+        max-width: 735px;
+    }
+
+    .hero-backgroung-video{
+        max-width: 738px;
+        max-height: 355px;
+    }
+
+    .footer{
+        padding: 0 0px;
+    }
+
+    .rentengle__original4{
+        max-width: 735px;
+    }
+
+    .block3{
+        max-width:735px;
+    }
+
+}
+
+@media(max-width:1150px){
+
+
+    .header{
+        max-width: 738px;
+        padding: 0 0px;
+    }
+
+    .container{
+        max-width: 738px;
+        padding: 0 0px;
+        align-items: center;
+    }
+
+    .header__top{
+        width: 850px;
+    }
+
+    .rentengle1{
+        max-width:850px;
+    }
+    
+    ol.menu__ol{
+        display: flex;
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        gap: 40px;
+    }
+
+    img.header__logo{
+        display:flex;
+        margin: 0 20px 0 15px;
+    }
+
+    .category{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .klass{
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .rentengle__original{
+        max-width:850px;
+    }
+
+    .rentengle__original1{
+        max-width:850px;
+    }
+
+    ol.category_o{
+        gap:15px;
+    }
+
+    .rentengle__original3{
+        max-width:850px;
+    }
+
+    .hero-backgroung-video{
+        width: 800px;
+        height: 355px;
+    }
+
+    .footer{
+        padding: 0 0px;
+    }
+
+    .rentengle__original4{
+        max-width:850px;
+    }
+
+    .block3{
+        max-width:850px;
+    }
+}
+
